@@ -49,7 +49,8 @@ A brief overview of these files is provided as follows.
 - `main.cpp`: It establishes a TCP connection between the simulator and the software pipeline. The simulator then transmits the GSP (only in the first iteration), control and lidar measurements to the `main.cpp`, which is then passed to the localization software pipeline. Next, the localization software pipeline processes this data to initialize or update the particles. Finally, it also calculates the average and highest weight of the particles and transmits the particle with hightest weight back to the simulator.
 
 
-##Simulation Output
+## Simulation Output
+The below vides show the output obtained by the localization software pipeline. Here, the blue car represents the ground through and the blue cirle and the black arrow denote the estimate location and yaw of the vehicle. 
 
 https://user-images.githubusercontent.com/14021388/218266977-ba675f3f-d362-4b2d-8819-970144775fe5.mp4
 
