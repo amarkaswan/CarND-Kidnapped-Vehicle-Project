@@ -50,7 +50,7 @@ A brief overview of these files is provided as follows.
 
 
 ## Simulation Output
-The below vides show the output obtained by the localization software pipeline. Here, the blue car represents the ground through and the blue cirle and the black arrow denote the estimate location and yaw of the vehicle. 
+The below video shows the output obtained by the localization software pipeline. Here, the ground truth of the vehicle's location and yaw are represented by a blue car. In contrast, the estimated location and yaw of the vehicle are depicted by the blue circle and the black arrow within the circle, respectively. 
 
 https://user-images.githubusercontent.com/14021388/218266977-ba675f3f-d362-4b2d-8819-970144775fe5.mp4
 
