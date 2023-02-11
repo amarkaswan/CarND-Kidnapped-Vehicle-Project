@@ -240,7 +240,7 @@ void ParticleFilter::resample() {
 
 }
 
-void ParticleFilter::SetAssociations(Particle& particle, 
+/*void ParticleFilter::SetAssociations(Particle& particle, 
                                      const vector<int>& associations, 
                                      const vector<double>& sense_x, 
                                      const vector<double>& sense_y) {
@@ -278,4 +278,4 @@ string ParticleFilter::getSenseCoord(Particle best, string coord) {
   string s = ss.str();
   s = s.substr(0, s.length()-1);  // get rid of the trailing space
   return s;
-}
+}*/
