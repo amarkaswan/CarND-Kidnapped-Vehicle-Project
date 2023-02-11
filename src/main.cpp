@@ -81,10 +81,12 @@ int main() {
           // receive noisy observation data from the simulator
           // sense_observations in JSON format 
           //   [{obs_x,obs_y},{obs_x,obs_y},...{obs_x,obs_y}] 
-          vector<LandmarkObs> noisy_observations;
+
           string sense_observations_x = j[1]["sense_observations_x"];
           string sense_observations_y = j[1]["sense_observations_y"];
-
+          
+          // store noisy observations in a vector
+          vector<LandmarkObs> noisy_observations;
           vector<float> x_sense;
           std::istringstream iss_x(sense_observations_x);
 
