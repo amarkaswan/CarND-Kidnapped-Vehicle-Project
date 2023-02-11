@@ -54,5 +54,11 @@ The below video shows the output obtained by the localization software pipeline.
 
 https://user-images.githubusercontent.com/14021388/218266977-ba675f3f-d362-4b2d-8819-970144775fe5.mp4
 
+The readers are encouraged to read the following papers/books for a detailed discussions on Particle Filter and filtering in general.
 
+- [An Introduction to the Kalman Filter](https://perso.crans.org/club-krobot/doc/kalman.pdf)
+- [Optimal filtering](https://books.google.co.in/books?hl=en&lr=&id=iYMqLQp49UMC&oi=fnd&pg=PP1&dq=+Optimal+Filtering.&ots=axXgmG5I9n&sig=plwDDCfod-KI6z5I0GySKgLY5hg&redir_esc=y#v=onepage&q=Optimal%20Filtering.&f=false)
+- [Stochastic processes and filtering theory](https://books.google.co.in/books?hl=en&lr=&id=4AqL3vE2J-sC&oi=fnd&pg=PP1&dq=+Stochastic+Processes+and+Filtering+Theory&ots=428Tz42C1O&sig=a_2VV9h0wZxWNBy2ci1z3K3Caao&redir_esc=y#v=onepage&q=Stochastic%20Processes%20and%20Filtering%20Theory&f=false)
+- [A tutorial on particle filters for online nonlinear/non-Gaussian Bayesian tracking](https://ieeexplore.ieee.org/abstract/document/978374?casa_token=tyiXxV4bef0AAAAA:WDGGfkB8tOdKvjNUdKTXbU57CWfpCPtgghXSwu-rWfaOzuAKnlBvRm7pPpJmq0l5VG4751qh3FE)
+- [Particle filter theory and practice with positioning applications](https://ieeexplore.ieee.org/abstract/document/5546308/references#references)
 
