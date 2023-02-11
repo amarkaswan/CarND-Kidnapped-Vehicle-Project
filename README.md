@@ -17,7 +17,7 @@ make
 ## Localization Software Pipeline
 The below flowchart depicts the steps of the particle filter algorithm and inputs. 
 
-<td> <img src="./flowchart.jpg" width="600" height="300"> </td>
+<td> <img src="./flowchart.jpg" width="00" height="350"> </td>
 
 The software pipeline that I have developed can be divided into four key steps including, initialization, prediction, particle weight updates, and resampling.
 
