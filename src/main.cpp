@@ -110,8 +110,7 @@ int main() {
           pf.updateWeights(sensor_range, sigma_landmark, noisy_observations, map);
           pf.resample();
 
-          // Calculate and output the average weighted error of the particle 
-          //   filter over all time steps so far.
+          // Calculate and output the average and hightest weight of the particles
           vector<Particle> particles = pf.particles;
           int num_particles = particles.size();
           double highest_weight = -1.0;
